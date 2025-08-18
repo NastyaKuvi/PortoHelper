@@ -56,7 +56,7 @@ function App() {
           >
             {showRussian ? currentWord.russian : 'Русский'}
           </p>
-          <button onClick={() => showRandom()}>Следующее слово</button>
+          <button onClick={() => showRandom()}>Next</button>
         </div>
       )}
     </div>
