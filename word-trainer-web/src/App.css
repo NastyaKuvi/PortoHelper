@@ -1,0 +1,13 @@
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: system-ui, sans-serif;
+  user-select: none;
+}
+h1 {
+  font-size: 48px;
+  margin: 0;
+}
