@@ -15,7 +15,7 @@ function App() {
   const [showRussian, setShowRussian] = useState(false);
 
   useEffect(() => {
-    fetch('/words.csv')
+    fetch(import.meta.env.BASE_URL + '/words.csv')
       .then(res => res.text())
       .then(text => {
         const parsed = Papa.parse(text, { header: true });
