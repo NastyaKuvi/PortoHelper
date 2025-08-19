@@ -34,6 +34,7 @@ function App() {
   const showRandom = (list = words) => {
     if (!list.length) return;
     const index = Math.floor(Math.random() * list.length);
+    console.log(`Showing word at index: ${index} out of ${list.length}`);    
     setCurrentWord(list[index]);
     setShowEnglish(false);
     setShowRussian(false);
