@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://NastyaKuvi.github.io/PortoHelper/word-trainer-web/",
+  "homepage": "https://NastyaKuvi.github.io/PortoHelper/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
